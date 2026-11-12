@@ -1,803 +1,696 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZYOP Solution | Enterprise Digital Solutions</title>
-    <meta name="description" content="Empowering businesses with modern graphic design, custom web development, and enterprise software solutions.">
-    
+
+    <title>ZYOP Solution | Brand Identity, Web Design &amp; Software Studio</title>
+    <meta name="description" content="ZYOP Solution is an independent digital studio creating brand identities, high-performing websites, and dependable software. Work with founder Azam Ayop.">
+    <meta name="keywords" content="ZYOP Solution, digital studio, brand identity, graphic design, web design, web development, software engineering, mobile app development, Flutter, Node.js, Firebase, SEO">
+    <meta name="author" content="Azam Ayop — ZYOP Solution">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#1b0a23">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="canonical" href="https://www.zyopsolution.com/">
+    <link rel="alternate" hreflang="en" href="https://www.zyopsolution.com/">
+    <link rel="alternate" hreflang="x-default" href="https://www.zyopsolution.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ZYOP Solution">
+    <meta property="og:title" content="ZYOP Solution | Brand Identity, Web Design &amp; Software Studio">
+    <meta property="og:description" content="An independent digital studio creating distinct brand identities, high-performing websites, and dependable software for businesses that value the details.">
+    <meta property="og:url" content="https://www.zyopsolution.com/">
+    <meta property="og:image" content="https://www.zyopsolution.com/assets/image/og-cover.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="ZYOP Solution — Design with intent. Build with care.">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ZYOP Solution | Brand Identity, Web Design &amp; Software Studio">
+    <meta name="twitter:description" content="An independent digital studio creating distinct brand identities, high-performing websites, and dependable software.">
+    <meta name="twitter:image" content="https://www.zyopsolution.com/assets/image/og-cover.jpg">
+    <meta name="twitter:image:alt" content="ZYOP Solution — Design with intent. Build with care.">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/image/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/image/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preload" as="image" href="assets/image/ZYOP-new-logo.jpg" fetchpriority="high">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-                    },
-                    colors: {
-                        brand: {
-                            50: '#eef2ff',
-                            100: '#e0e7ff',
-                            400: '#818cf8',
-                            500: '#6366f1',
-                            600: '#4f46e5',
-                            700: '#4338ca',
-                            cyan: '#06b6d4',
-                            violet: '#8b5cf6',
-                            dark: '#070b14',
-                            card: 'rgba(15, 23, 42, 0.65)',
-                        }
-                    },
-                    animation: {
-                        'pulse-glow': 'pulseGlow 4s infinite ease-in-out',
-                        'float': 'float 6s infinite ease-in-out',
-                    },
-                    keyframes: {
-                        pulseGlow: {
-                            '0%, 100%': { opacity: '0.4', transform: 'scale(1)' },
-                            '50%': { opacity: '0.8', transform: 'scale(1.05)' },
-                        },
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0px)' },
-                            '50%': { transform: 'translateY(-10px)' },
-                        }
-                    }
-                }
-            }
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&amp;family=Manrope:wght@300..800&amp;display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <script>document.documentElement.classList.add('js');</script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://www.zyopsolution.com/#business",
+          "name": "ZYOP Solution",
+          "url": "https://www.zyopsolution.com/",
+          "logo": "https://www.zyopsolution.com/assets/image/ZYOP-new-logo.jpg",
+          "image": "https://www.zyopsolution.com/assets/image/og-cover.jpg",
+          "description": "Independent digital studio creating brand identities, high-performing websites, and dependable software.",
+          "email": "mailto:azamayop@zyopsolution.com",
+          "founder": { "@type": "Person", "name": "Azam Ayop", "jobTitle": "Founder" },
+          "sameAs": ["https://threads.net/@zam.yop"],
+          "areaServed": { "@type": "Place", "name": "Worldwide" },
+          "knowsAbout": ["Brand identity", "Graphic design", "Web design", "Web development", "Software engineering", "Flutter", "Node.js", "Firebase", "SEO"],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Digital services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brand & graphic design" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web design & development" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Software & mobile apps" } }
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.zyopsolution.com/#website",
+          "url": "https://www.zyopsolution.com/",
+          "name": "ZYOP Solution",
+          "publisher": { "@id": "https://www.zyopsolution.com/#business" },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.zyopsolution.com/#webpage",
+          "url": "https://www.zyopsolution.com/",
+          "name": "ZYOP Solution | Brand Identity, Web Design & Software Studio",
+          "description": "Independent digital studio creating brand identities, high-performing websites, and dependable software.",
+          "isPartOf": { "@id": "https://www.zyopsolution.com/#website" },
+          "about": { "@id": "https://www.zyopsolution.com/#business" },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.zyopsolution.com/#faq",
+          "mainEntity": [
+            { "@type": "Question", "name": "What kind of projects do you take on?", "acceptedAnswer": { "@type": "Answer", "text": "Brand identities, marketing websites, landing pages, mobile apps, and custom internal tools. If your project sits between design and engineering, it is probably a good fit." } },
+            { "@type": "Question", "name": "How long does a project take?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on scope. A focused landing page can move quickly; a full brand and multi-page site or app needs more room. You will receive a clear timeline and scope before work begins." } },
+            { "@type": "Question", "name": "Do you work with clients remotely?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The process is built for remote collaboration, with scheduled reviews, shared files, and one direct point of contact throughout." } },
+            { "@type": "Question", "name": "Can you support the site after launch?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Ongoing updates, improvements, and maintenance can be arranged after handover, so the work stays healthy as your business changes." } },
+            { "@type": "Question", "name": "How do we get started?", "acceptedAnswer": { "@type": "Answer", "text": "Send a short note with what you are building, what you have tried, and roughly when you would like to launch. You will receive honest next steps." } }
+          ]
         }
+      ]
+    }
     </script>
-
-    <!-- Phosphor Icons -->
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-
-    <style>
-        /* Custom Glassmorphism & Effects */
-        .glass-nav {
-            background: rgba(7, 11, 20, 0.75);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-        }
-        
-        .glass-card {
-            background: rgba(15, 23, 42, 0.65);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-        }
-
-        .glass-card:hover {
-            border-color: rgba(99, 102, 241, 0.4);
-            box-shadow: 0 0 25px -5px rgba(99, 102, 241, 0.25);
-        }
-
-        .gradient-text {
-            background: linear-gradient(135deg, #ffffff 30%, #818cf8 70%, #06b6d4 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .gradient-accent {
-            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
-        }
-
-        .bg-grid-pattern {
-            background-size: 40px 40px;
-            background-image: 
-                linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-        }
-
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #070b14;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #1e293b;
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #4f46e5;
-        }
-    </style>
 </head>
-<body class="bg-brand-dark text-slate-200 font-sans antialiased selection:bg-brand-500 selection:text-white relative overflow-x-hidden">
+<body id="top">
 
-    <!-- Glowing Background Orbs -->
-    <div class="fixed top-0 left-1/4 w-[500px] h-[500px] bg-brand-600/20 rounded-full blur-[140px] pointer-events-none -z-10 animate-pulse-glow"></div>
-    <div class="fixed bottom-1/4 right-10 w-[400px] h-[400px] bg-brand-cyan/15 rounded-full blur-[140px] pointer-events-none -z-10"></div>
-    <div class="fixed top-1/2 left-10 w-[300px] h-[300px] bg-brand-violet/15 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <!-- Background Grid -->
-    <div class="fixed inset-0 bg-grid-pattern pointer-events-none -z-10 opacity-60"></div>
+    <!-- SVG icon sprite -->
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M4 12h16M13 5l7 7-7 7"/></symbol>
+        <symbol id="icon-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+        <symbol id="icon-arrow-up" viewBox="0 0 24 24"><path d="M12 20V4M5 11l7-7 7 7"/></symbol>
+        <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 6.5"/></symbol>
+        <symbol id="icon-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18h1.6a2.4 2.4 0 0 0 0-4.8h-1.2a2 2 0 0 1 0-4h4.1A4.5 4.5 0 0 0 21 7.7C21 5 17 3 12 3Z"/><circle cx="7.5" cy="10" r="1"/><circle cx="10" cy="6.5" r="1"/><circle cx="15" cy="6.5" r="1"/></symbol>
+        <symbol id="icon-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+        <symbol id="icon-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></symbol>
+        <symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18a15 15 0 0 1 0-18Z"/></symbol>
+        <symbol id="icon-book" viewBox="0 0 24 24"><path d="M2 4h6a4 4 0 0 1 4 4v13a4 4 0 0 0-4-4H2V4Z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a4 4 0 0 1 4-4h6V4Z"/></symbol>
+        <symbol id="icon-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+        <symbol id="icon-at" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></symbol>
+        <symbol id="icon-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></symbol>
+        <symbol id="icon-sparkle" viewBox="0 0 24 24"><path d="m12 3 1.9 5.6L20 10.5l-5.6 1.9L12 18l-1.9-5.6L4.5 10.5l5.6-1.9L12 3Z"/></symbol>
+        <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 7.6 8 9 4.6-1.4 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    </svg>
 
-    <!-- NAVIGATION -->
-    <header class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300" id="navbar">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            
-            <!-- Logo -->
-            <a href="#" class="flex items-center gap-3 group">
-                <div class="w-10 h-10 rounded-xl gradient-accent p-0.5 flex items-center justify-center shadow-lg shadow-brand-500/30 group-hover:scale-105 transition-transform duration-300">
-                    <div class="w-full h-full bg-brand-dark rounded-[10px] flex items-center justify-center">
-                        <span class="font-extrabold text-xl text-white tracking-wider">Z</span>
-                    </div>
-                </div>
-                <div class="flex flex-col">
-                    <span class="font-extrabold text-lg tracking-tight text-white group-hover:text-brand-400 transition-colors">ZYOP <span class="text-brand-400 font-light">SOLUTION</span></span>
-                    <span class="text-[10px] tracking-widest text-slate-400 uppercase font-semibold">Enterprise</span>
-                </div>
-            </a>
+    <!-- HEADER -->
+    <header class="site-header sticky-top" id="site-header">
+        <nav class="navbar navbar-expand-lg py-0" aria-label="Primary navigation">
+            <div class="container">
+                <a class="navbar-brand brand" href="#top" aria-label="ZYOP Solution — home">
+                    <span class="brand-mark"><img src="assets/image/ZYOP-new-logo.jpg" alt="" width="44" height="44" fetchpriority="high"></span>
+                    <span class="brand-name"><strong>ZYOP</strong><span>Solution</span></span>
+                </a>
 
-            <!-- Desktop Nav Links -->
-            <nav class="hidden md:flex items-center gap-8">
-                <a href="#services" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Services</a>
-                <a href="#portfolio" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Portfolio</a>
-                <a href="#about" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Why ZYOP</a>
-                <a href="#contact" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Contact</a>
-            </nav>
-
-            <!-- CTA & Mobile Toggle -->
-            <div class="flex items-center gap-4">
-                <button onclick="openModal()" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-xl text-sm font-semibold text-white gradient-accent hover:opacity-95 shadow-lg shadow-brand-500/25 transition-all transform hover:-translate-y-0.5 active:translate-y-0">
-                    <i class="ph ph-paper-plane-tilt mr-2 text-lg"></i> Direct Inquiry
+                <button class="navbar-toggler menu-toggle ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu-toggle-bar"></span>
+                    <span class="menu-toggle-bar"></span>
+                    <span class="menu-toggle-bar"></span>
                 </button>
-                
-                <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 focus:outline-none">
-                    <i class="ph ph-list text-2xl" id="menu-icon"></i>
-                </button>
+
+                <div class="collapse navbar-collapse" id="primaryNav">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                        <li class="nav-item ms-lg-3 d-none d-lg-block"><a class="btn btn-brand btn-sm" href="#contact">Start a project <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a></li>
+                        <li class="nav-item d-lg-none mt-3"><a class="btn btn-brand w-100" href="#contact">Start a project <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-
-        <!-- Mobile Menu Dropdown -->
-        <div id="mobile-menu" class="hidden md:hidden glass-nav border-t border-slate-800/80 px-4 pt-4 pb-6 space-y-3">
-            <a href="#services" class="block py-2 text-base font-medium text-slate-300 hover:text-white transition-colors" onclick="toggleMobileMenu()">Services</a>
-            <a href="#portfolio" class="block py-2 text-base font-medium text-slate-300 hover:text-white transition-colors" onclick="toggleMobileMenu()">Portfolio</a>
-            <a href="#about" class="block py-2 text-base font-medium text-slate-300 hover:text-white transition-colors" onclick="toggleMobileMenu()">Why ZYOP</a>
-            <a href="#contact" class="block py-2 text-base font-medium text-slate-300 hover:text-white transition-colors" onclick="toggleMobileMenu()">Contact</a>
-            <button onclick="openModal(); toggleMobileMenu();" class="w-full mt-2 py-3 rounded-xl text-sm font-semibold text-white gradient-accent shadow-lg text-center flex items-center justify-center gap-2">
-                <i class="ph ph-paper-plane-tilt text-lg"></i> Direct Inquiry
-            </button>
-        </div>
+        </nav>
     </header>
 
-    <!-- HERO SECTION -->
-    <section class="relative pt-36 pb-20 md:pt-48 md:pb-32 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-4xl mx-auto space-y-6">
-                
-                <!-- Enterprise Badge -->
-                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card border-brand-500/30 text-xs sm:text-sm text-brand-400 font-medium animate-float">
-                    <span class="w-2 h-2 rounded-full bg-brand-cyan animate-pulse"></span>
-                    <span>Digital Solutions Enterprise</span>
-                    <i class="ph ph-sparkle text-amber-400"></i>
-                </div>
+    <main id="main">
 
-                <!-- Main Headline -->
-                <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-[1.15]">
-                    Empowering Businesses Through <br class="hidden sm:inline" />
-                    <span class="gradient-text">Modern Digital Engineering</span>
-                </h1>
-
-                <!-- Subheadline -->
-                <p class="text-base sm:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed font-normal">
-                    ZYOP Solution crafts enterprise-grade software, high-converting responsive web platforms, and striking graphic design tailored to elevate your brand presence.
-                </p>
-
-                <!-- Hero Action Buttons -->
-                <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <a href="#portfolio" class="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold text-white gradient-accent hover:opacity-95 shadow-xl shadow-brand-500/30 transition-all flex items-center justify-center gap-2 transform hover:-translate-y-0.5">
-                        <span>Explore Our Work</span>
-                        <i class="ph ph-arrow-down text-lg"></i>
-                    </a>
-                    <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold text-slate-200 glass-card hover:bg-slate-800/80 transition-all flex items-center justify-center gap-2 border border-slate-700">
-                        <i class="ph ph-chats-circle text-lg text-brand-400"></i>
-                        <span>Contact Enterprise Team</span>
-                    </a>
-                </div>
-
-                <!-- Enterprise Stat Badges -->
-                <div class="pt-14 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
-                    <div class="glass-card p-4 rounded-2xl text-center">
-                        <p class="text-2xl sm:text-3xl font-extrabold text-white">100%</p>
-                        <p class="text-xs text-slate-400 mt-1">Tailored Solutions</p>
-                    </div>
-                    <div class="glass-card p-4 rounded-2xl text-center">
-                        <p class="text-2xl sm:text-3xl font-extrabold text-brand-cyan">Multi-Platform</p>
-                        <p class="text-xs text-slate-400 mt-1">Web, Mobile & Design</p>
-                    </div>
-                    <div class="glass-card p-4 rounded-2xl text-center">
-                        <p class="text-2xl sm:text-3xl font-extrabold text-brand-400">Fast</p>
-                        <p class="text-xs text-slate-400 mt-1">Cloud Infrastructure</p>
-                    </div>
-                    <div class="glass-card p-4 rounded-2xl text-center">
-                        <p class="text-2xl sm:text-3xl font-extrabold text-white">24/7</p>
-                        <p class="text-xs text-slate-400 mt-1">Dedicated Support</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- SERVICES SECTION -->
-    <section id="services" class="py-20 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="text-center max-w-2xl mx-auto mb-16">
-                <h2 class="text-xs uppercase tracking-widest font-bold text-brand-400 mb-2">Core Competencies</h2>
-                <h3 class="text-3xl sm:text-4xl font-bold text-white">Comprehensive Digital Services</h3>
-                <p class="text-slate-400 mt-3">From initial brand concept to scalable cloud applications, we deliver robust end-to-end solutions.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                
-                <!-- Service 1: Graphic Design -->
-                <div class="glass-card p-8 rounded-3xl transition-all duration-300 relative group flex flex-col justify-between">
-                    <div>
-                        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-pink-500/20 to-purple-500/20 border border-pink-500/30 flex items-center justify-center text-pink-400 mb-6 group-hover:scale-110 transition-transform">
-                            <i class="ph ph-palette text-3xl"></i>
+        <!-- HERO -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <p class="eyebrow reveal"><span class="status-dot"></span> Independent digital studio</p>
+                        <h1 class="hero-title reveal" id="hero-title" style="--delay:.05s">Design with intent.<br><em>Build with care.</em></h1>
+                        <p class="hero-lede reveal" style="--delay:.1s">ZYOP Solution creates distinct brand identities, high-performing websites, and dependable software for businesses that value the details.</p>
+                        <div class="d-flex flex-column flex-sm-row gap-3 reveal" style="--delay:.15s">
+                            <a class="btn btn-brand" href="#contact">Start a project <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a>
+                            <a class="btn btn-outline-brand" href="#work">View selected work <svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></a>
                         </div>
-                        <h4 class="text-xl font-bold text-white mb-3">Graphic Design & Branding</h4>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                            Crafting visually compelling brand identities that stand out. From corporate cards and marketing collateral to full brand guidelines.
-                        </p>
+                        <div class="hero-meta reveal" style="--delay:.2s">
+                            <div class="hero-meta-item">
+                                <span class="hero-meta-num">01</span>
+                                <p class="hero-meta-label">Brand identity</p>
+                            </div>
+                            <div class="hero-meta-item">
+                                <span class="hero-meta-num">02</span>
+                                <p class="hero-meta-label">Web platforms</p>
+                            </div>
+                            <div class="hero-meta-item">
+                                <span class="hero-meta-num">03</span>
+                                <p class="hero-meta-label">Mobile software</p>
+                            </div>
+                        </div>
                     </div>
-                    <ul class="space-y-2 text-xs font-medium text-slate-300 border-t border-slate-800 pt-6">
-                        <li class="flex items-center gap-2"><i class="ph ph-check-circle text-pink-400"></i> Visual Identity & Logo Systems</li>
-                        <li class="flex items-center gap-2"><i class="ph ph-check-circle text-pink-400"></i> Marketing Assets & Flyers</li>
-                        <li class="flex items-center gap-2"><i class="ph ph-check-circle text-pink-400"></i> Custom Cards & Print Media</li>
+
+                    <div class="col-lg-6">
+                        <div class="hero-art reveal" style="--delay:.12s">
+                            <div class="art-panel">
+                                <div class="art-panel-head">
+                                    <span>ZYOP / Studio</span>
+                                    <span class="art-status"><span class="status-dot"></span> Open for projects</span>
+                                </div>
+                                <div class="art-logo">
+                                    <img src="assets/image/ZYOP-new-logo.jpg" alt="ZYOP Solution logo" width="520" height="520" fetchpriority="high">
+                                </div>
+                                <div class="art-panel-foot">
+                                    <span>Brand</span>
+                                    <span>Product</span>
+                                    <span>Code</span>
+                                </div>
+                            </div>
+                            <div class="art-chip art-chip--one">
+                                <span class="art-chip-icon"><svg class="icon" aria-hidden="true"><use href="#icon-sparkle"></use></svg></span>
+                                <div><strong>Identity systems</strong><span>Made to be remembered</span></div>
+                            </div>
+                            <div class="art-chip art-chip--two">
+                                <span class="art-chip-icon"><svg class="icon" aria-hidden="true"><use href="#icon-monitor"></use></svg></span>
+                                <div><strong>Digital products</strong><span>Built to perform</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="client-strip reveal" style="--delay:.1s">
+                    <p class="client-strip-label">Selected clients</p>
+                    <ul class="client-list">
+                        <li><a href="#work-aviantyx">Aviantyx</a></li>
+                        <li><a href="#work-libria">Libria</a></li>
+                        <li><a href="#work-dapurku">DapurKu</a></li>
                     </ul>
                 </div>
-
-                <!-- Service 2: Web Development -->
-                <div class="glass-card p-8 rounded-3xl transition-all duration-300 relative group flex flex-col justify-between border-brand-500/30 shadow-lg shadow-brand-500/10">
-                    <div class="absolute -top-3 right-6 bg-brand-500 text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow">Popular</div>
-                    <div>
-                        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-brand-500/20 to-cyan-500/20 border border-brand-500/30 flex items-center justify-center text-brand-400 mb-6 group-hover:scale-110 transition-transform">
-                            <i class="ph ph-browsers text-3xl"></i>
-                        </div>
-                        <h4 class="text-xl font-bold text-white mb-3">Web Development</h4>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                            High-performance, ultra-responsive web applications and landing pages engineered for maximum conversion, SEO optimization, and lightning speed.
-                        </p>
-                    </div>
-                    <ul class="space-y-2 text-xs font-medium text-slate-300 border-t border-slate-800 pt-6">
-                        <li class="flex items-center gap-2"><i class="ph ph-check-circle text-brand-400"></i> Custom Enterprise Websites</li>
-                        <li class="flex items-center gap-2"><i class="ph ph-check-circle text-brand-400"></i> High-Converting Landing Pages</li>
-                        <li class="flex items-center gap-2"><i class="ph ph-check-circle text-brand-400"></i> Domain & Cloud Infrastructure</li>
-                    </ul>
-                </div>
-
-                <!-- Service 3: Software Engineering -->
-                <div class="glass-card p-8 rounded-3xl transition-all duration-300 relative group flex flex-col justify-between">
-                    <div>
-                        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-6 group-hover:scale-110 transition-transform">
-                            <i class="ph ph-code-block text-3xl"></i>
-                        </div>
-                        <h4 class="text-xl font-bold text-white mb-3">Software Engineering</h4>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                            Custom software architecture, mobile app development, and automated workflow systems designed to solve operational bottlenecks.
-                        </p>
-                    </div>
-                    <ul class="space-y-2 text-xs font-medium text-slate-300 border-t border-slate-800 pt-6">
-                        <li class="flex items-center gap-2"><i class="ph ph-check-circle text-emerald-400"></i> Cross-Platform Mobile Apps (Flutter)</li>
-                        <li class="flex items-center gap-2"><i class="ph ph-check-circle text-emerald-400"></i> Firebase & Node.js Backend Integration</li>
-                        <li class="flex items-center gap-2"><i class="ph ph-check-circle text-emerald-400"></i> Workflow Automation & APIs</li>
-                    </ul>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- PORTFOLIO SECTION -->
-    <section id="portfolio" class="py-20 bg-slate-950/40 border-y border-slate-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
-                <div>
-                    <h2 class="text-xs uppercase tracking-widest font-bold text-brand-400 mb-2">Featured Work</h2>
-                    <h3 class="text-3xl sm:text-4xl font-bold text-white">Proven Track Record</h3>
+        <!-- SERVICES -->
+        <section class="section section--services" id="services" aria-labelledby="services-title">
+            <div class="container">
+                <div class="row align-items-end g-4 section-head">
+                    <div class="col-lg-7">
+                        <p class="eyebrow reveal">01 — Services</p>
+                        <h2 class="reveal" id="services-title">Three disciplines,<br>held to one standard.</h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="section-lede reveal" style="--delay:.08s">Strategy, design, and engineering under one roof — so your brand and product feel like they belong together.</p>
+                    </div>
                 </div>
 
-                <!-- Filter Controls -->
-                <div class="flex flex-wrap gap-2 p-1.5 glass-card rounded-xl max-w-fit">
-                    <button class="filter-btn active px-4 py-2 rounded-lg text-xs font-semibold text-white transition-all bg-brand-600" data-filter="all">All Projects</button>
-                    <button class="filter-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition-all" data-filter="web">Web Solutions</button>
-                    <button class="filter-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition-all" data-filter="software">Mobile Apps & Software</button>
-                    <button class="filter-btn px-4 py-2 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition-all" data-filter="design">Branding & Design</button>
-                </div>
-            </div>
-
-            <!-- Portfolio Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
-                
-                <!-- Project 1: Aviantyx -->
-                <div class="portfolio-item glass-card rounded-3xl overflow-hidden group transition-all duration-300" data-category="web">
-                    <div class="relative h-56 bg-slate-800 overflow-hidden flex items-center justify-center p-6">
-                        <div class="absolute inset-0 bg-gradient-to-tr from-brand-900/80 to-slate-900/90 z-10"></div>
-                        <!-- Abstract Visual Graphic -->
-                        <div class="relative z-20 text-center">
-                            <div class="w-16 h-16 mx-auto rounded-2xl bg-brand-500/20 border border-brand-400/40 flex items-center justify-center text-brand-400 mb-3 group-hover:scale-110 transition-transform">
-                                <i class="ph ph-globe-hemisphere-west text-4xl"></i>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <article class="service-card h-100 reveal">
+                            <div class="service-card-top">
+                                <span class="service-num">01</span>
+                                <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#icon-palette"></use></svg></span>
                             </div>
-                            <span class="text-xl font-bold tracking-wider text-white">AVIANTYX</span>
-                        </div>
-                        <span class="absolute top-4 right-4 z-20 px-3 py-1 bg-brand-500/20 border border-brand-400/30 text-brand-300 text-[10px] font-semibold rounded-full uppercase">Web Solution</span>
+                            <h3>Brand &amp; graphic design</h3>
+                            <p>Craft a brand that looks as considered as the business behind it — from the first mark to every printed detail.</p>
+                            <ul class="service-list">
+                                <li><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Visual identity &amp; logo systems</li>
+                                <li><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Print, stationery &amp; collateral</li>
+                                <li><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Campaign &amp; marketing assets</li>
+                            </ul>
+                            <a class="text-link service-link" href="#contact" data-service="Brand &amp; graphic design">Discuss this service <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a>
+                        </article>
                     </div>
 
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-2">
-                            <h4 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">Aviantyx Digital</h4>
-                            <a href="https://aviantyx.com.my" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-white transition-colors" title="Visit Site">
-                                <i class="ph ph-arrow-square-out text-xl"></i>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="service-card h-100 reveal" style="--delay:.08s">
+                            <div class="service-card-top">
+                                <span class="service-num">02</span>
+                                <span class="service-badge">Most requested</span>
+                                <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#icon-monitor"></use></svg></span>
+                            </div>
+                            <h3>Web design &amp; development</h3>
+                            <p>Websites that communicate clearly, load quickly, and earn trust at first glance — built on a foundation you can grow with.</p>
+                            <ul class="service-list">
+                                <li><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Custom marketing websites</li>
+                                <li><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Landing pages &amp; content structure</li>
+                                <li><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Domains, hosting &amp; SEO foundations</li>
+                            </ul>
+                            <a class="text-link service-link" href="#contact" data-service="Web design &amp; development">Discuss this service <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <article class="service-card h-100 reveal" style="--delay:.16s">
+                            <div class="service-card-top">
+                                <span class="service-num">03</span>
+                                <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#icon-phone"></use></svg></span>
+                            </div>
+                            <h3>Software &amp; mobile apps</h3>
+                            <p>Purpose-built tools that remove friction and support the way your team actually works — not the other way around.</p>
+                            <ul class="service-list">
+                                <li><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Flutter mobile applications</li>
+                                <li><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Node.js &amp; Firebase backends</li>
+                                <li><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Workflow automation &amp; integrations</li>
+                            </ul>
+                            <a class="text-link service-link" href="#contact" data-service="Software &amp; mobile apps">Discuss this service <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section class="section section--work" id="work" aria-labelledby="work-title">
+            <div class="container">
+                <div class="row align-items-end g-4 section-head">
+                    <div class="col-lg-7">
+                        <p class="eyebrow reveal">02 — Selected work</p>
+                        <h2 class="reveal" id="work-title">Work that earns<br>its place.</h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="section-lede reveal" style="--delay:.08s">A selection of platforms and products built for real businesses — each shaped around a clear purpose, not a template.</p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-12">
+                        <article class="project project--feature h-100 reveal" id="work-aviantyx">
+                            <div class="row g-0 h-100">
+                                <div class="col-lg-6">
+                                    <a class="project-cover project-cover--dark h-100" href="https://aviantyx.com.my" target="_blank" rel="noopener noreferrer" aria-label="Visit the Aviantyx website in a new tab" style="--cover-bg:#1d0a25;--cover-fg:#f7f2ea;--cover-accent:#b0509c">
+                                        <div class="project-cover__top">
+                                            <span class="project-tag">Web solution</span>
+                                            <span class="project-arrow"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></span>
+                                        </div>
+                                        <div>
+                                            <p class="project-word">Aviantyx</p>
+                                            <p class="project-meta">Enterprise web presence</p>
+                                        </div>
+                                        <span class="project-icon"><svg class="icon" aria-hidden="true"><use href="#icon-globe"></use></svg></span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="project-body h-100">
+                                        <p class="project-eyebrow">Featured project</p>
+                                        <div class="project-topline"><h3>Aviantyx Digital</h3></div>
+                                        <p>A complete digital home for a growing enterprise — structured content, confident presentation, and a platform built for long-term reliability.</p>
+                                        <ul class="project-tags">
+                                            <li>Responsive web</li>
+                                            <li>Enterprise infrastructure</li>
+                                            <li>SEO foundations</li>
+                                        </ul>
+                                        <a class="text-link text-link--light" href="https://aviantyx.com.my" target="_blank" rel="noopener noreferrer">Visit aviantyx.com.my <svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6">
+                        <article class="project h-100 reveal" id="work-libria">
+                            <a class="project-cover" href="https://libria.my" target="_blank" rel="noopener noreferrer" aria-label="Visit the Libria website in a new tab" style="--cover-bg:#efe4ee;--cover-fg:#2a0b2f;--cover-accent:#b0509c">
+                                <div class="project-cover__top">
+                                    <span class="project-tag">eBook platform</span>
+                                    <span class="project-arrow"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></span>
+                                </div>
+                                <div>
+                                    <p class="project-word">Libria</p>
+                                    <p class="project-meta">Digital reading, simplified</p>
+                                </div>
+                                <span class="project-icon"><svg class="icon" aria-hidden="true"><use href="#icon-book"></use></svg></span>
                             </a>
-                        </div>
-                        <p class="text-slate-400 text-sm mb-4 line-clamp-2">
-                            Full-scale enterprise web solution and digital presence platform built for optimal reliability, modern presentation, and brand scalability.
-                        </p>
-                        
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="px-2.5 py-1 bg-slate-800 text-slate-300 text-xs rounded-md">Responsive Web</span>
-                            <span class="px-2.5 py-1 bg-slate-800 text-slate-300 text-xs rounded-md">Enterprise Infrastructure</span>
-                        </div>
-
-                        <a href="https://aviantyx.com.my" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-bold text-brand-400 hover:text-brand-300 uppercase tracking-wider">
-                            Visit aviantyx.com.my <i class="ph ph-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 2: Libria -->
-                <div class="portfolio-item glass-card rounded-3xl overflow-hidden group transition-all duration-300" data-category="web software">
-                    <div class="relative h-56 bg-slate-800 overflow-hidden flex items-center justify-center p-6">
-                        <div class="absolute inset-0 bg-gradient-to-tr from-violet-900/80 to-slate-900/90 z-10"></div>
-                        <div class="relative z-20 text-center">
-                            <div class="w-16 h-16 mx-auto rounded-2xl bg-violet-500/20 border border-violet-400/40 flex items-center justify-center text-violet-400 mb-3 group-hover:scale-110 transition-transform">
-                                <i class="ph ph-book-open-text text-4xl"></i>
+                            <div class="project-body">
+                                <p class="project-eyebrow">Platform &amp; interface</p>
+                                <h3>Libria</h3>
+                                <p>A free e-book ecosystem with a clean catalog experience across web and mobile, designed to make reading easy to find and easy to return to.</p>
+                                <ul class="project-tags">
+                                    <li>Content catalog</li>
+                                    <li>Web &amp; mobile</li>
+                                    <li>UI design</li>
+                                </ul>
+                                <a class="text-link text-link--light" href="https://libria.my" target="_blank" rel="noopener noreferrer">Visit libria.my <svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></a>
                             </div>
-                            <span class="text-xl font-bold tracking-wider text-white">LIBRIA</span>
-                        </div>
-                        <span class="absolute top-4 right-4 z-20 px-3 py-1 bg-violet-500/20 border border-violet-400/30 text-violet-300 text-[10px] font-semibold rounded-full uppercase">eBook Platform</span>
+                        </article>
                     </div>
 
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-2">
-                            <h4 class="text-xl font-bold text-white group-hover:text-violet-400 transition-colors">Libria</h4>
-                            <a href="https://libria.my" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-white transition-colors" title="Visit Site">
-                                <i class="ph ph-arrow-square-out text-xl"></i>
+                    <div class="col-md-6">
+                        <article class="project h-100 reveal" id="work-dapurku" style="--delay:.08s">
+                            <a class="project-cover" href="mailto:azamayop@zyopsolution.com?subject=DapurKu%20App%20Walkthrough" aria-label="Request a DapurKu app walkthrough by email" style="--cover-bg:#ece3d5;--cover-fg:#24352b;--cover-accent:#8fa58f">
+                                <div class="project-cover__top">
+                                    <span class="project-tag">Android application</span>
+                                    <span class="project-arrow"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></span>
+                                </div>
+                                <div>
+                                    <p class="project-word">DapurKu</p>
+                                    <p class="project-meta">Order flow, made clear</p>
+                                </div>
+                                <span class="project-icon"><svg class="icon" aria-hidden="true"><use href="#icon-chart"></use></svg></span>
                             </a>
-                        </div>
-                        <p class="text-slate-400 text-sm mb-4 line-clamp-2">
-                            Free digital e-book sharing ecosystem and mobile app interface providing seamless user access to cataloged reading material.
-                        </p>
-                        
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="px-2.5 py-1 bg-slate-800 text-slate-300 text-xs rounded-md">eBook Platform</span>
-                            <span class="px-2.5 py-1 bg-slate-800 text-slate-300 text-xs rounded-md">Web/Mobile App</span>
-                        </div>
-
-                        <a href="https://libria.my" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-bold text-violet-400 hover:text-violet-300 uppercase tracking-wider">
-                            Visit libria.my <i class="ph ph-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 3: DapurKu -->
-                <div class="portfolio-item glass-card rounded-3xl overflow-hidden group transition-all duration-300" data-category="software">
-                    <div class="relative h-56 bg-slate-800 overflow-hidden flex items-center justify-center p-6">
-                        <div class="absolute inset-0 bg-gradient-to-tr from-emerald-900/80 to-slate-900/90 z-10"></div>
-                        <div class="relative z-20 text-center">
-                            <div class="w-16 h-16 mx-auto rounded-2xl bg-emerald-500/20 border border-emerald-400/40 flex items-center justify-center text-emerald-400 mb-3 group-hover:scale-110 transition-transform">
-                                <i class="ph ph-cooking-pot text-4xl"></i>
+                            <div class="project-body">
+                                <p class="project-eyebrow">Business application</p>
+                                <h3>DapurKu</h3>
+                                <p>Order management, live inventory, and daily analytics for food-service teams — turning a busy service into a clear, manageable workflow.</p>
+                                <ul class="project-tags">
+                                    <li>Android</li>
+                                    <li>Operations</li>
+                                    <li>Analytics</li>
+                                </ul>
+                                <a class="text-link text-link--light" href="mailto:azamayop@zyopsolution.com?subject=DapurKu%20App%20Walkthrough" >Request a walkthrough <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a>
                             </div>
-                            <span class="text-xl font-bold tracking-wider text-white">DAPURKU</span>
-                        </div>
-                        <span class="absolute top-4 right-4 z-20 px-3 py-1 bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-[10px] font-semibold rounded-full uppercase">Android Application</span>
-                    </div>
-
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-2">
-                            <h4 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">DapurKu App</h4>
-                            <span class="text-xs px-2 py-0.5 bg-emerald-950 text-emerald-400 border border-emerald-800 rounded">Android Native</span>
-                        </div>
-                        <p class="text-slate-400 text-sm mb-4 line-clamp-2">
-                            Culinary order management, real-time inventory tracking, and daily business analytics designed specifically for food service SMEs.
-                        </p>
-                        
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="px-2.5 py-1 bg-slate-800 text-slate-300 text-xs rounded-md">Order Management</span>
-                            <span class="px-2.5 py-1 bg-slate-800 text-slate-300 text-xs rounded-md">Business Analytics</span>
-                        </div>
-
-                        <button onclick="openModal('DapurKu Android App Inquiry')" class="inline-flex items-center gap-2 text-xs font-bold text-emerald-400 hover:text-emerald-300 uppercase tracking-wider">
-                            Request App Demo <i class="ph ph-caret-right"></i>
-                        </button>
+                        </article>
                     </div>
                 </div>
-
             </div>
+        </section>
 
-        </div>
-    </section>
+        <!-- ABOUT -->
+        <section class="section section--about" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-7">
+                        <p class="eyebrow reveal">03 — About</p>
+                        <h2 class="reveal" id="about-title">A small studio with a direct line to the work.</h2>
+                        <p class="about-lede reveal" style="--delay:.06s">I'm Azam Ayop, the founder of ZYOP Solution. I work where design and engineering meet — helping businesses turn rough ideas into brands and products that feel finished.</p>
+                        <p class="reveal" style="--delay:.1s">ZYOP is intentionally small. That means you don't get passed between departments or lost in a handover. You work directly with me from the first conversation through launch, with clear decisions and honest timelines along the way.</p>
+                        <p class="reveal" style="--delay:.12s">Whether you need a new identity, a website that finally does your work justice, or an internal tool that saves your team hours, the standard is the same: make it useful, make it beautiful, and make it last.</p>
+                        <ul class="skill-list reveal" style="--delay:.16s" aria-label="Areas of expertise">
+                            <li class="skill-tag">Brand identity</li>
+                            <li class="skill-tag">Art direction</li>
+                            <li class="skill-tag">Web design</li>
+                            <li class="skill-tag">Front-end development</li>
+                            <li class="skill-tag">Flutter</li>
+                            <li class="skill-tag">Node.js</li>
+                            <li class="skill-tag">Firebase</li>
+                            <li class="skill-tag">SEO foundations</li>
+                        </ul>
+                    </div>
 
-    <!-- WHY CHOOSE US / ABOUT SECTION -->
-    <section id="about" class="py-20 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                
-                <div class="space-y-6">
-                    <h2 class="text-xs uppercase tracking-widest font-bold text-brand-400">Enterprise Standard</h2>
-                    <h3 class="text-3xl sm:text-4xl font-bold text-white leading-tight">
-                        Engineered for Performance, Scalability & Visual Excellence
-                    </h3>
-                    <p class="text-slate-400 leading-relaxed">
-                        At <span class="text-white font-semibold">ZYOP Solution</span>, we bridge the gap between aesthetics and engineering. Whether launching a mobile application, structuring enterprise web portals, or refreshing brand identities, we build for real business outcomes.
-                    </p>
-
-                    <div class="space-y-4 pt-2">
-                        <div class="flex gap-4 p-4 rounded-2xl glass-card">
-                            <div class="w-10 h-10 rounded-xl bg-brand-500/20 text-brand-400 flex items-center justify-center shrink-0 font-bold">01</div>
-                            <div>
-                                <h4 class="font-bold text-white text-base">Client-Centric Architecture</h4>
-                                <p class="text-slate-400 text-sm mt-1">Custom solutions tailored to your operational workflow, never generic templates.</p>
-                            </div>
-                        </div>
-
-                        <div class="flex gap-4 p-4 rounded-2xl glass-card">
-                            <div class="w-10 h-10 rounded-xl bg-brand-cyan/20 text-brand-cyan flex items-center justify-center shrink-0 font-bold">02</div>
-                            <div>
-                                <h4 class="font-bold text-white text-base">Modern Tech Stack</h4>
-                                <p class="text-slate-400 text-sm mt-1">Utilizing Flutter, Node.js, Firebase, and cloud-native hosting for rock-solid stability.</p>
-                            </div>
-                        </div>
-
-                        <div class="flex gap-4 p-4 rounded-2xl glass-card">
-                            <div class="w-10 h-10 rounded-xl bg-brand-violet/20 text-brand-violet flex items-center justify-center shrink-0 font-bold">03</div>
-                            <div>
-                                <h4 class="font-bold text-white text-base">End-to-End Ownership</h4>
-                                <p class="text-slate-400 text-sm mt-1">From branding design concepts to deployment and ongoing maintenance.</p>
-                            </div>
+                    <div class="col-lg-5">
+                        <div class="profile-card reveal" style="--delay:.1s">
+                            <div class="profile-logo"><img src="assets/image/ZYOP-new-logo.jpg" alt="ZYOP Solution logo" width="88" height="88" loading="lazy" decoding="async"></div>
+                            <h3>Azam Ayop</h3>
+                            <p class="profile-role">Founder &amp; principal, ZYOP Solution</p>
+                            <blockquote class="profile-quote">Good design isn't decoration. It's the shortest path between a business and the people it serves.</blockquote>
+                            <dl class="profile-facts">
+                                <div><dt>Focus</dt><dd>Brand, web &amp; software</dd></div>
+                                <div><dt>Working style</dt><dd>Direct, collaborative, remote</dd></div>
+                                <div><dt>Availability</dt><dd><span class="status-dot"></span> Open for new projects</dd></div>
+                            </dl>
+                            <a class="profile-email" href="mailto:azamayop@zyopsolution.com">Work with me directly <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a>
                         </div>
                     </div>
                 </div>
-
-                <!-- Visual Accent Box -->
-                <div class="relative">
-                    <div class="glass-card rounded-3xl p-8 border border-slate-700/60 relative z-10">
-                        <div class="flex items-center justify-between pb-6 border-b border-slate-800">
-                            <div class="flex items-center gap-3">
-                                <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                                <div class="w-3 h-3 rounded-full bg-green-500"></div>
-                            </div>
-                            <span class="text-xs text-slate-500 font-mono">zyopsolution-stack.config</span>
-                        </div>
-
-                        <div class="py-6 font-mono text-xs text-slate-300 space-y-3">
-                            <p><span class="text-brand-400">const</span> enterprise = <span class="text-amber-300 font-semibold">'ZYOP Solution'</span>;</p>
-                            <p><span class="text-brand-400">const</span> capabilities = [</p>
-                            <p class="pl-6 text-emerald-400">'Graphic Design & Cards',</p>
-                            <p class="pl-6 text-emerald-400">'Web Development & Cloud',</p>
-                            <p class="pl-6 text-emerald-400">'Mobile Software (Flutter/Android)'</p>
-                            <p>];</p>
-                            <p class="pt-2 text-slate-500">// Delivering modern digital transformation</p>
-                            <p><span class="text-brand-violet">export default</span> function EnterpriseSuccess() {</p>
-                            <p class="pl-6 text-cyan-300">return <span class="text-white">"High Conversions & Scalable Code"</span>;</p>
-                            <p>}</p>
-                        </div>
-
-                        <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
-                            <span class="flex items-center gap-1"><i class="ph ph-shield-check text-emerald-400 text-base"></i> Enterprise Verified</span>
-                            <span class="text-brand-400">v2.5 Ready</span>
-                        </div>
-                    </div>
-
-                    <!-- Glowing Background Behind Box -->
-                    <div class="absolute -inset-2 bg-gradient-to-r from-brand-500 to-cyan-500 rounded-3xl blur-2xl opacity-20 -z-10"></div>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="py-20 relative bg-slate-950/60 border-t border-slate-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="text-center max-w-2xl mx-auto mb-16">
-                <h2 class="text-xs uppercase tracking-widest font-bold text-brand-400 mb-2">Get In Touch</h2>
-                <h3 class="text-3xl sm:text-4xl font-bold text-white">Let's Build Something Exceptional</h3>
-                <p class="text-slate-400 mt-3">Ready to transform your ideas into software or elevate your brand visual design?</p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                
-                <!-- Contact Direct Info -->
-                <div class="lg:col-span-5 space-y-6">
-                    <div class="glass-card p-6 rounded-2xl flex items-start gap-4">
-                        <div class="w-12 h-12 rounded-xl bg-brand-500/20 text-brand-400 flex items-center justify-center shrink-0 text-2xl">
-                            <i class="ph ph-envelope-simple"></i>
-                        </div>
-                        <div class="flex-1 min-w-0">
-                            <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Official Email</p>
-                            <a href="mailto:azamayop@zyopsolution.com" class="text-white font-medium hover:text-brand-400 transition-colors block truncate mt-1">
-                                azamayop@zyopsolution.com
-                            </a>
-                            <button onclick="copyToClipboard('azamayop@zyopsolution.com', 'email-copy-text')" class="mt-2 text-xs text-brand-400 hover:text-brand-300 flex items-center gap-1 font-semibold">
-                                <i class="ph ph-copy"></i> <span id="email-copy-text">Copy Email</span>
-                            </button>
-                        </div>
+        <!-- PROCESS -->
+        <section class="section section--process" id="process" aria-labelledby="process-title">
+            <div class="container">
+                <div class="row align-items-end g-4 section-head">
+                    <div class="col-lg-7">
+                        <p class="eyebrow reveal">04 — Process</p>
+                        <h2 class="reveal" id="process-title">A clear path from<br>idea to launch.</h2>
                     </div>
-
-                    <div class="glass-card p-6 rounded-2xl flex items-start gap-4">
-                        <div class="w-12 h-12 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center shrink-0 text-2xl">
-                            <i class="ph ph-at"></i>
-                        </div>
-                        <div class="flex-1">
-                            <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Threads Profile</p>
-                            <a href="https://threads.net/@zam.yop" target="_blank" rel="noopener noreferrer" class="text-white font-medium hover:text-purple-400 transition-colors block mt-1">
-                                @zam.yop
-                            </a>
-                            <a href="https://threads.net/@zam.yop" target="_blank" rel="noopener noreferrer" class="mt-2 text-xs text-purple-400 hover:text-purple-300 inline-flex items-center gap-1 font-semibold">
-                                Follow on Threads <i class="ph ph-arrow-up-right"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Company Quick Card -->
-                    <div class="glass-card p-6 rounded-2xl gradient-accent text-white relative overflow-hidden">
-                        <div class="relative z-10">
-                            <h4 class="font-extrabold text-lg">ZYOP Solution Enterprise</h4>
-                            <p class="text-xs text-slate-200 mt-1">Web • Mobile Software • Visual Graphic Design</p>
-                            <p class="text-xs text-slate-200 mt-4">Fast turnaround, scalable codebase, clean aesthetic design systems.</p>
-                        </div>
-                        <i class="ph ph-buildings text-8xl absolute -bottom-4 -right-4 text-white/10"></i>
+                    <div class="col-lg-5">
+                        <p class="section-lede reveal" style="--delay:.08s">No black boxes, no endless revisions. Just a straightforward process with visible progress at every stage.</p>
                     </div>
                 </div>
 
-                <!-- Interactive Contact Form -->
-                <div class="lg:col-span-7 glass-card p-8 rounded-3xl">
-                    <form id="contact-form" onsubmit="handleFormSubmit(event)" class="space-y-6">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                            <div>
-                                <label for="name" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Your Name / Company</label>
-                                <input type="text" id="name" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 text-sm transition-all">
-                            </div>
-                            <div>
-                                <label for="email" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Email Address</label>
-                                <input type="email" id="email" required placeholder="john@example.com" class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 text-sm transition-all">
-                            </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="process-step h-100 reveal">
+                            <span class="process-num">01</span>
+                            <h3>Discover</h3>
+                            <p>A focused conversation about your goals, audience, constraints, and what success needs to look like.</p>
                         </div>
-
-                        <div>
-                            <label for="service-type" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Interested Service</label>
-                            <select id="service-type" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-brand-500 text-sm transition-all">
-                                <option value="Web Development">Web Development (Website, Landing Page)</option>
-                                <option value="Software Engineering">Software Engineering (Mobile App, Backend)</option>
-                                <option value="Graphic Design">Graphic Design & Branding (Visuals, Cards)</option>
-                                <option value="All Services / Custom Project">Full Suite Digital Solution</option>
-                            </select>
+                    </div>
+                    <div class="col">
+                        <div class="process-step h-100 reveal" style="--delay:.06s">
+                            <span class="process-num">02</span>
+                            <h3>Define</h3>
+                            <p>We agree on scope, direction, and priorities before design begins — so there are no surprises later.</p>
                         </div>
-
-                        <div>
-                            <label for="message" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Project Brief & Details</label>
-                            <textarea id="message" rows="4" required placeholder="Tell us about your project requirements, timeline, and goals..." class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 text-sm transition-all"></textarea>
+                    </div>
+                    <div class="col">
+                        <div class="process-step h-100 reveal" style="--delay:.12s">
+                            <span class="process-num">03</span>
+                            <h3>Design &amp; build</h3>
+                            <p>Design and development move together in short, reviewable milestones, with feedback built into the process.</p>
                         </div>
-
-                        <button type="submit" id="submit-btn" class="w-full py-4 rounded-xl font-bold text-white gradient-accent hover:opacity-95 shadow-xl shadow-brand-500/25 transition-all flex items-center justify-center gap-2">
-                            <span>Send Message</span>
-                            <i class="ph ph-paper-plane-right text-lg"></i>
-                        </button>
-                    </form>
-                    <div id="form-feedback" class="hidden mt-4 p-4 rounded-xl text-center text-sm font-semibold"></div>
+                    </div>
+                    <div class="col">
+                        <div class="process-step h-100 reveal" style="--delay:.18s">
+                            <span class="process-num">04</span>
+                            <h3>Launch &amp; support</h3>
+                            <p>Testing, handover, and practical support after go-live. You leave with something you can confidently run.</p>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section section--faq" id="faq" aria-labelledby="faq-title">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-4">
+                        <p class="eyebrow reveal">05 — Good to know</p>
+                        <h2 class="reveal" id="faq-title">Questions,<br>answered.</h2>
+                        <p class="faq-intro-copy reveal" style="--delay:.08s">A few things worth knowing before we start. If your question isn't here, just ask.</p>
+                        <a class="text-link reveal" style="--delay:.12s" href="mailto:azamayop@zyopsolution.com">Ask me directly <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></a>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="accordion accordion-flush faq-accordion reveal" id="faqAccordion" style="--delay:.08s">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">What kind of projects do you take on?</button>
+                                </h3>
+                                <div id="faqCollapse1" role="region" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body"><p>Brand identities, marketing websites, landing pages, mobile apps, and custom internal tools. If your project sits between design and engineering, it's probably a good fit.</p></div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">How long does a project take?</button>
+                                </h3>
+                                <div id="faqCollapse2" role="region" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body"><p>It depends on scope. A focused landing page can move quickly; a full brand and multi-page site or app needs more room. You'll receive a clear timeline and scope before work begins.</p></div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">Do you work with clients remotely?</button>
+                                </h3>
+                                <div id="faqCollapse3" role="region" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body"><p>Yes. The process is built for remote collaboration, with scheduled reviews, shared files, and one direct point of contact throughout.</p></div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">Can you support the site after launch?</button>
+                                </h3>
+                                <div id="faqCollapse4" role="region" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body"><p>Yes. Ongoing updates, improvements, and maintenance can be arranged after handover, so the work stays healthy as your business changes.</p></div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">How do we get started?</button>
+                                </h3>
+                                <div id="faqCollapse5" role="region" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body"><p>Send a short note with what you're building, what you've tried, and roughly when you'd like to launch. I'll reply with honest next steps.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="contact-panel">
+                    <div class="row g-4 g-lg-5 align-items-center">
+                        <div class="col-lg-6 contact-copy">
+                            <p class="eyebrow reveal">06 — Contact</p>
+                            <h2 class="reveal" id="contact-title">Let's make something worth keeping.</h2>
+                            <p class="reveal" style="--delay:.06s">Have a project in mind, or just a problem that needs untangling? Tell me a little about it. I read every message personally.</p>
+
+                            <div class="contact-methods reveal" style="--delay:.1s">
+                                <div class="contact-method">
+                                    <span class="contact-method-icon"><svg class="icon" aria-hidden="true"><use href="#icon-mail"></use></svg></span>
+                                    <div class="contact-method-body">
+                                        <span class="contact-method-label">Email</span>
+                                        <a href="mailto:azamayop@zyopsolution.com">azamayop@zyopsolution.com</a>
+                                    </div>
+                                    <button class="copy-btn" type="button" id="copy-email" data-copy="azamayop@zyopsolution.com" aria-label="Copy email address">
+                                        <svg class="icon" aria-hidden="true"><use href="#icon-copy"></use></svg><span id="copy-email-label">Copy</span>
+                                    </button>
+                                </div>
+
+                                <div class="contact-method">
+                                    <span class="contact-method-icon"><svg class="icon" aria-hidden="true"><use href="#icon-at"></use></svg></span>
+                                    <div class="contact-method-body">
+                                        <span class="contact-method-label">Threads</span>
+                                        <a href="https://threads.net/@zam.yop" target="_blank" rel="noopener noreferrer">@zam.yop</a>
+                                    </div>
+                                    <a class="copy-btn" href="https://threads.net/@zam.yop" target="_blank" rel="noopener noreferrer" aria-label="Open Threads profile in a new tab">
+                                        <svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <p class="contact-note reveal" style="--delay:.14s">Prefer email? Write to <a href="mailto:azamayop@zyopsolution.com">azamayop@zyopsolution.com</a> — I'll get back to you personally.</p>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="contact-form-card reveal" style="--delay:.12s">
+                                <h3>Start a conversation</h3>
+                                <p>A few details are enough to begin.</p>
+                                <form id="contact-form" novalidate>
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="name">Name / company</label>
+                                            <input class="form-control" type="text" id="name" name="name" placeholder="Jane Tan" autocomplete="name" required>
+                                            <div class="invalid-feedback">Please add your name or company.</div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="form-label" for="email">Email</label>
+                                            <input class="form-control" type="email" id="email" name="email" placeholder="jane@company.com" autocomplete="email" required>
+                                            <div class="invalid-feedback">Please add a valid email address.</div>
+                                        </div>
+                                        <div class="col-12">
+                                            <label class="form-label" for="service-type">What do you need?</label>
+                                            <select class="form-select" id="service-type" name="service" required>
+                                                <option value="Brand &amp; graphic design">Brand &amp; graphic design</option>
+                                                <option value="Web design &amp; development" selected>Web design &amp; development</option>
+                                                <option value="Software &amp; mobile apps">Software &amp; mobile apps</option>
+                                                <option value="Full project / not sure yet">Full project / not sure yet</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12">
+                                            <label class="form-label" for="message">Project details</label>
+                                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="What are you building, and what would a great outcome look like?" required></textarea>
+                                            <div class="invalid-feedback">Please add a few details about your project.</div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-brand w-100 justify-content-center" type="submit" id="submit-btn">Send inquiry <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></button>
+                                            <p class="form-note">This opens your email app with the details ready to send.</p>
+                                            <div class="form-status" id="form-status" role="status" aria-live="polite" hidden></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- FOOTER -->
-    <footer class="py-12 border-t border-slate-900 text-slate-500 text-xs">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
-            
-            <div class="flex items-center gap-3">
-                <div class="w-8 h-8 rounded-lg gradient-accent p-0.5 flex items-center justify-center">
-                    <div class="w-full h-full bg-brand-dark rounded-[6px] flex items-center justify-center font-bold text-white">Z</div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4 footer-top">
+                <div class="col-lg-5">
+                    <a class="brand footer-brand" href="#top" aria-label="ZYOP Solution — back to top">
+                        <span class="brand-mark"><img src="assets/image/ZYOP-new-logo.jpg" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
+                        <span class="brand-name"><strong>ZYOP</strong><span>Solution</span></span>
+                    </a>
+                    <p>An independent digital studio for brand, web, and software — built on clarity, craft, and direct collaboration.</p>
+                    <p class="footer-note"><span class="status-dot"></span> Open for select projects</p>
                 </div>
-                <span class="font-bold text-slate-300 text-sm">ZYOP Solution Enterprise</span>
+
+                <div class="col-6 col-lg-2 offset-lg-1">
+                    <h3 class="footer-heading">Explore</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#work">Selected work</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h3 class="footer-heading">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#contact" data-service="Brand &amp; graphic design">Brand design</a></li>
+                        <li><a href="#contact" data-service="Web design &amp; development">Web design</a></li>
+                        <li><a href="#contact" data-service="Software &amp; mobile apps">Software</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h3 class="footer-heading">Connect</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:azamayop@zyopsolution.com">Email</a></li>
+                        <li><a href="https://threads.net/@zam.yop" target="_blank" rel="noopener noreferrer">Threads</a></li>
+                        <li><a href="#contact">Start a project</a></li>
+                    </ul>
+                </div>
             </div>
 
-            <p class="text-center sm:text-left">&copy; <span id="year"></span> ZYOP Solution. All rights reserved.</p>
-
-            <div class="flex items-center gap-4 text-slate-400">
-                <a href="mailto:azamayop@zyopsolution.com" class="hover:text-white transition-colors">Email</a>
-                <span>•</span>
-                <a href="https://threads.net/@zam.yop" target="_blank" class="hover:text-white transition-colors">Threads (@zam.yop)</a>
+            <div class="footer-bottom">
+                <p>© <span id="year">2026</span> ZYOP Solution. All rights reserved.</p>
+                <p>Designed and built by ZYOP Solution.</p>
+                <a class="footer-top-link" href="#top">Back to top <svg class="icon" aria-hidden="true"><use href="#icon-arrow-up"></use></svg></a>
             </div>
-
         </div>
     </footer>
 
-    <!-- INQUIRY MODAL -->
-    <div id="inquiry-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md">
-        <div class="glass-card max-w-lg w-full rounded-3xl p-6 sm:p-8 relative border border-slate-700 shadow-2xl">
-            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2 text-xl">
-                <i class="ph ph-x"></i>
-            </button>
-
-            <h3 class="text-2xl font-bold text-white mb-2" id="modal-title">Direct Enterprise Inquiry</h3>
-            <p class="text-xs text-slate-400 mb-6">Reach out directly to ZYOP Solution for instant feedback.</p>
-
-            <div class="space-y-4">
-                <a id="modal-mailto" href="mailto:azamayop@zyopsolution.com?subject=Project%20Inquiry%20-%20ZYOP%20Solution" class="w-full p-4 rounded-2xl glass-card hover:bg-slate-800 transition-all flex items-center justify-between group">
-                    <div class="flex items-center gap-3">
-                        <i class="ph ph-envelope text-2xl text-brand-400"></i>
-                        <div class="text-left">
-                            <p class="text-sm font-bold text-white">Send Email Inquiry</p>
-                            <p class="text-xs text-slate-400">azamayop@zyopsolution.com</p>
-                        </div>
-                    </div>
-                    <i class="ph ph-arrow-right text-slate-400 group-hover:text-white transition-colors"></i>
-                </a>
-
-                <a href="https://threads.net/@zam.yop" target="_blank" rel="noopener noreferrer" class="w-full p-4 rounded-2xl glass-card hover:bg-slate-800 transition-all flex items-center justify-between group">
-                    <div class="flex items-center gap-3">
-                        <i class="ph ph-at text-2xl text-purple-400"></i>
-                        <div class="text-left">
-                            <p class="text-sm font-bold text-white">Message via Threads</p>
-                            <p class="text-xs text-slate-400">@zam.yop</p>
-                        </div>
-                    </div>
-                    <i class="ph ph-arrow-up-right text-slate-400 group-hover:text-white transition-colors"></i>
-                </a>
-            </div>
-
-            <button onclick="closeModal()" class="w-full mt-6 py-3 rounded-xl bg-slate-800 text-slate-300 font-semibold text-xs hover:bg-slate-700 transition-colors">
-                Close Window
-            </button>
-        </div>
-    </div>
-
-    <!-- JAVASCRIPT LOGIC -->
-    <script>
-        // Set dynamic copyright year
-        document.getElementById('year').textContent = new Date().getFullYear();
-
-        // Mobile Menu Toggle
-        function toggleMobileMenu() {
-            const menu = document.getElementById('mobile-menu');
-            const icon = document.getElementById('menu-icon');
-            menu.classList.toggle('hidden');
-            if (menu.classList.contains('hidden')) {
-                icon.className = 'ph ph-list text-2xl';
-            } else {
-                icon.className = 'ph ph-x text-2xl';
-            }
-        }
-        document.getElementById('mobile-menu-btn').addEventListener('click', toggleMobileMenu);
-
-        // Portfolio Category Filtering
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        const portfolioItems = document.querySelectorAll('.portfolio-item');
-
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                // Remove active class
-                filterBtns.forEach(b => {
-                    b.classList.remove('active', 'bg-brand-600', 'text-white');
-                    b.classList.add('text-slate-400');
-                });
-
-                // Add active state to clicked button
-                btn.classList.add('active', 'bg-brand-600', 'text-white');
-                btn.classList.remove('text-slate-400');
-
-                const filter = btn.getAttribute('data-filter');
-
-                portfolioItems.forEach(item => {
-                    const categories = item.getAttribute('data-category').split(' ');
-                    if (filter === 'all' || categories.includes(filter)) {
-                        item.style.display = 'block';
-                    } else {
-                        item.style.display = 'none';
-                    }
-                });
-            });
-        });
-
-        // Copy Text to Clipboard Function
-        function copyToClipboard(text, elementId) {
-            if (navigator.clipboard) {
-                navigator.clipboard.writeText(text).then(() => {
-                    showCopySuccess(elementId);
-                });
-            } else {
-                const temp = document.createElement('input');
-                temp.value = text;
-                document.body.appendChild(temp);
-                temp.select();
-                document.execCommand('copy');
-                document.body.removeChild(temp);
-                showCopySuccess(elementId);
-            }
-        }
-
-        function showCopySuccess(elementId) {
-            const el = document.getElementById(elementId);
-            const originalText = el.textContent;
-            el.textContent = 'Copied!';
-            el.classList.add('text-emerald-400');
-            setTimeout(() => {
-                el.textContent = originalText;
-                el.classList.remove('text-emerald-400');
-            }, 2000);
-        }
-
-        // Contact Form Handling
-        function handleFormSubmit(e) {
-            e.preventDefault();
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const service = document.getElementById('service-type').value;
-            const message = document.getElementById('message').value;
-
-            const feedback = document.getElementById('form-feedback');
-            const submitBtn = document.getElementById('submit-btn');
-
-            // Button loading visual
-            submitBtn.disabled = true;
-            submitBtn.innerHTML = `<i class="ph ph-spinner animate-spin text-xl"></i> Sending...`;
-
-            // Prepare mailto link trigger as fallback/direct send
-            const mailtoUrl = `mailto:azamayop@zyopsolution.com?subject=${encodeURIComponent('Inquiry: ' + service + ' - ' + name)}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nService: ' + service + '\n\nMessage:\n' + message)}`;
-
-            setTimeout(() => {
-                submitBtn.disabled = false;
-                submitBtn.innerHTML = `<span>Send Message</span><i class="ph ph-paper-plane-right text-lg"></i>`;
-                
-                feedback.classList.remove('hidden', 'bg-red-950', 'text-red-300');
-                feedback.classList.add('bg-emerald-950/80', 'text-emerald-300', 'border', 'border-emerald-700/60');
-                feedback.innerHTML = `Thank you, ${name}! Your inquiry draft has been prepared. Opening your mail app...`;
-
-                window.location.href = mailtoUrl;
-
-                document.getElementById('contact-form').reset();
-            }, 1000);
-        }
-
-        // Direct Modal Control
-        function openModal(customSubject = '') {
-            const modal = document.getElementById('inquiry-modal');
-            const mailto = document.getElementById('modal-mailto');
-            if(customSubject) {
-                mailto.href = `mailto:azamayop@zyopsolution.com?subject=${encodeURIComponent(customSubject)}`;
-            }
-            modal.classList.remove('hidden');
-        }
-
-        function closeModal() {
-            document.getElementById('inquiry-modal').classList.add('hidden');
-        }
-
-        // Close modal on click outside
-        window.addEventListener('click', (e) => {
-            const modal = document.getElementById('inquiry-modal');
-            if (e.target === modal) {
-                closeModal();
-            }
-        });
-    </script>
+    <!-- Bootstrap JS + site behaviour -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
