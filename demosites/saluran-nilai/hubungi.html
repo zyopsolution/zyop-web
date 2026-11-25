@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hubungi Kami | Saluran Nilai Sdn. Bhd.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="top-strip">
+    <div class="top-strip-inner">
+      <div class="top-strip-badges">
+        <span>Kontraktor Binaan, Elektrik &amp; Perkhidmatan • <strong>100% Bumiputera</strong></span>
+        <span>CIDB <strong>Gred G3</strong> (B, CE, ME) • Berdaftar <strong>MOF &amp; Suruhanjaya Tenaga</strong></span>
+      </div>
+      <div>No. Syarikat: <strong>199501013463 (342664-T)</strong></div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-mark">
+        <div class="sn-badge" aria-hidden="true">SN</div>
+        <div class="brand-text">
+          <span class="brand-name">SALURAN NILAI SDN. BHD.</span>
+          <span class="brand-sub">Design &amp; Build • Sejak 1995</span>
+        </div>
+      </a>
+
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-label="Buka Menu Navigasi">☰ Menu</button>
+
+      <nav aria-label="Navigasi Utama">
+        <ul class="nav-links">
+          <li><a href="index.html" class="">Utama</a></li>
+          <li><a href="tentang-kami.html" class="">Tentang Kami</a></li>
+          <li class="has-dropdown">
+            <div class="dropdown-trigger-wrap">
+              <a href="perkhidmatan.html" class="">Perkhidmatan Kami</a>
+              <button type="button" class="dropdown-toggle-btn" aria-expanded="false" aria-label="Buka submenu Perkhidmatan Kami">▾</button>
+            </div>
+            <ul class="dropdown-menu">
+              <li><a href="perkhidmatan.html#binaan">Kejuruteraan Awam &amp; Binaan</a></li>
+              <li><a href="perkhidmatan.html#elektrik">Kejuruteraan Elektrik &amp; Solar</a></li>
+              <li><a href="perkhidmatan.html#mekanikal">Mekanikal, Pam &amp; Kebakaran</a></li>
+              <li class="dropdown-divider" role="separator"></li>
+              <li><a href="projek.html" class="">Rekod Projek &amp; Kontrak</a></li>
+            </ul>
+          </li>
+          <li><a href="kerjaya.html" class="">Kerjaya</a></li>
+          <li><a href="hubungi.html" class="active">Hubungi Kami</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Pertanyaan Sebut Harga, Tender &amp; Kerjaya</span>
+        <h1>Hubungi <span>Saluran Nilai Sdn. Bhd.</span></h1>
+        <p class="lead">Berhubung dengan pihak pengurusan dan pasukan operasi kami untuk permintaan sebut harga, jemputan tender, lawatan tapak atau pertanyaan umum.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2">
+          <form class="form-card js-mockup-form">
+            <h2 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 6px; color: var(--bg-dark);">Borang Pertanyaan / Permintaan Sebut Harga</h2>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 20px;">Isikan butiran projek atau pertanyaan anda di bawah.</p>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="nama-hubungi">Nama Anda *</label>
+                <input type="text" id="nama-hubungi" name="nama-hubungi" placeholder="Nama penuh" required />
+              </div>
+
+              <div class="form-group">
+                <label for="organisasi">Syarikat / Agensi / Organisasi</label>
+                <input type="text" id="organisasi" name="organisasi" placeholder="Nama agensi atau syarikat" />
+              </div>
+
+              <div class="form-group">
+                <label for="telefon-hubungi">No. Telefon *</label>
+                <input type="tel" id="telefon-hubungi" name="telefon-hubungi" placeholder="Contoh: 03-XXXX XXXX atau 01X-XXXXXXX" required />
+              </div>
+
+              <div class="form-group">
+                <label for="emel-hubungi">E-mel *</label>
+                <input type="email" id="emel-hubungi" name="emel-hubungi" placeholder="nama@organisasi.gov.my / .com" required />
+              </div>
+
+              <div class="form-group full">
+                <label for="jenis-pertanyaan">Jenis Pertanyaan / Skop Kerja</label>
+                <select id="jenis-pertanyaan" name="jenis-pertanyaan">
+                  <option value="Sebut Harga / Tender">Sebut Harga / Jemputan Tender</option>
+                  <option value="Kerja Binaan & Penyelenggaraan">Kerja Binaan &amp; Penyelenggaraan Bangunan</option>
+                  <option value="Kejuruteraan Elektrik & Solar">Kejuruteraan Elektrik, Panel &amp; Solar PV</option>
+                  <option value="Mekanikal, Pam & Kebakaran">Mekanikal, Pam Air &amp; Sistem Pencegah Kebakaran</option>
+                  <option value="Pertanyaan Am / Kerjaya">Pertanyaan Am / Kerjaya</option>
+                </select>
+              </div>
+
+              <div class="form-group full">
+                <label for="butiran-projek">Butiran Lokasi &amp; Skop Kerja</label>
+                <textarea id="butiran-projek" name="butiran-projek" rows="4" placeholder="Nyatakan lokasi tapak, ringkasan skop kerja atau keperluan sebut harga/tender."></textarea>
+              </div>
+            </div>
+
+            <div style="margin-top: 20px;">
+              <button type="submit" class="btn btn-primary">Hantar Pertanyaan</button>
+            </div>
+
+            <div class="form-status" role="status">
+              Pertanyaan mockup telah direkodkan pada paparan ini. Setelah diintegrasikan dengan backend/e-mel rasmi, mesej ini akan dihantar terus ke pejabat Saluran Nilai Sdn. Bhd.
+            </div>
+          </form>
+
+          <aside class="card">
+            <span class="card-tag">Maklumat Perhubungan</span>
+            <h3>Pejabat &amp; Saluran Rasmi</h3>
+            <p>Maklumat perhubungan seperti yang tertera dalam profil rasmi syarikat:</p>
+            <ul class="feature-list">
+              <li><strong>Nama Syarikat:</strong> Saluran Nilai Sdn. Bhd. (199501013463 / 342664-T)</li>
+              <li><strong>Alamat Pejabat:</strong> No. 16-1, Jalan Sibu 8, Taman Wahyu, 68100 Batu Caves, W.P. Kuala Lumpur</li>
+              <li><strong>No. Telefon / HP:</strong> 018-2204812 / 011-28227279</li>
+              <li><strong>E-mel:</strong> salurannilai@yahoo.com</li>
+            </ul>
+            <div style="margin-top: 22px; display: flex; gap: 10px; flex-wrap: wrap;">
+              <a href="projek.html" class="btn btn-outline-dark">Lihat Rekod Projek</a>
+              <a href="kerjaya.html" class="btn btn-dark">Halaman Kerjaya</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-mark" style="margin-bottom: 14px;">
+            <div class="sn-badge" aria-hidden="true">SN</div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #ffffff;">SALURAN NILAI SDN. BHD.</span>
+              <span class="brand-sub" style="color: #b3bcc8;">No. Pendaftaran: 199501013463 (342664-T)</span>
+            </div>
+          </div>
+          <p>Syarikat kontraktor berdaftar yang melaksanakan kerja pembinaan, kejuruteraan elektrik, mekanikal dan penyelenggaraan fasiliti secara berkonsepkan <em>Design &amp; Build</em> sejak 6 Mei 1995.</p>
+        </div>
+
+        <div>
+          <h3>Pautan Pantas</h3>
+          <ul class="footer-list">
+            <li><a href="index.html">Halaman Utama</a></li>
+            <li><a href="tentang-kami.html">Tentang Kami &amp; Lesen</a></li>
+            <li><a href="perkhidmatan.html">Perkhidmatan Kami</a></li>
+            <li><a href="projek.html">Rekod Projek &amp; Bukti</a></li>
+            <li><a href="kerjaya.html">Peluang Kerjaya</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Perkhidmatan &amp; Rekod</h3>
+          <ul class="footer-list">
+            <li><a href="perkhidmatan.html#binaan">Kejuruteraan Awam &amp; Binaan</a></li>
+            <li><a href="perkhidmatan.html#elektrik">Kejuruteraan Elektrik &amp; Solar</a></li>
+            <li><a href="perkhidmatan.html#mekanikal">Mekanikal, Pam &amp; Pencegah Kebakaran</a></li>
+            <li><a href="projek.html">Rekod Projek, Tender &amp; Inden</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Pejabat &amp; Pertanyaan</h3>
+          <ul class="footer-list">
+            <li>No. 16-1, Jalan Sibu 8, Taman Wahyu, 68100 Batu Caves, W.P. Kuala Lumpur</li>
+            <li>Tel / HP: 018-2204812 / 011-28227279</li>
+            <li>E-mel: salurannilai@yahoo.com</li>
+            <li><a href="hubungi.html" style="color: var(--brand-amber); font-weight: 600;">Hantar Pertanyaan Sebut Harga →</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Saluran Nilai Sdn. Bhd. (199501013463 / 342664-T). Hak cipta terpelihara.</span>
+        <span>Reka Bentuk Responsif • Bahasa Melayu</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
