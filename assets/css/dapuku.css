@@ -4,16 +4,16 @@
    ========================================================================== */
 
 .dk-page {
-    --dk-green: #24352b;
-    --dk-green-deep: #17261d;
-    --dk-sage: #8fa58f;
-    --dk-sage-light: #c9d8c8;
-    --dk-sand: #ece3d5;
-    --dk-panel: #2f4638;
+    --dk-orange: #f97316;
+    --dk-orange-bright: #fb923c;
+    --dk-orange-deep: #c2410c;
+    --dk-orange-dark: #7c2d12;
+    --dk-orange-soft: #ffedd5;
+    --dk-panel: #ea580c;
 }
 
 .dk-page .eyebrow {
-    color: var(--dk-green);
+    color: var(--dk-orange-deep);
 }
 
 .dk-page .section h2 {
@@ -43,11 +43,11 @@
 }
 
 .dk-page .dk-breadcrumb a:hover {
-    color: var(--dk-green);
+    color: var(--dk-orange-deep);
 }
 
 .dk-page .dk-breadcrumb span[aria-current="page"] {
-    color: var(--dk-green);
+    color: var(--dk-orange-deep);
 }
 
 .dk-page .dk-hero {
@@ -55,8 +55,8 @@
     overflow: hidden;
     padding: clamp(2.5rem, 5vw, 4rem) 0 0;
     background:
-        radial-gradient(75% 70% at 88% 8%, rgba(143, 165, 143, 0.24), transparent 62%),
-        radial-gradient(45% 50% at 0% 100%, rgba(36, 53, 43, 0.09), transparent 72%),
+        radial-gradient(75% 70% at 88% 8%, rgba(249, 115, 22, 0.2), transparent 62%),
+        radial-gradient(45% 50% at 0% 100%, rgba(124, 45, 18, 0.08), transparent 72%),
         var(--cream);
 }
 
@@ -65,8 +65,8 @@
     position: absolute;
     inset: 0;
     background-image:
-        linear-gradient(to right, rgba(36, 53, 43, 0.045) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(36, 53, 43, 0.045) 1px, transparent 1px);
+        linear-gradient(to right, rgba(124, 45, 18, 0.045) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(124, 45, 18, 0.045) 1px, transparent 1px);
     background-size: 52px 52px;
     -webkit-mask-image: linear-gradient(to bottom, #000, transparent 85%);
     mask-image: linear-gradient(to bottom, #000, transparent 85%);
@@ -92,7 +92,7 @@
 }
 
 .dk-page .dk-hero-title em {
-    color: var(--dk-green);
+    color: var(--dk-orange-deep);
     font-style: italic;
     font-weight: 400;
 }
@@ -114,8 +114,8 @@
 }
 
 .dk-page .dk-stat {
-    flex: 1 1 30%;
-    min-width: 7rem;
+    flex: 1 1 21%;
+    min-width: 6rem;
     padding-right: 1.25rem;
 }
 
@@ -127,7 +127,7 @@
 .dk-page .dk-stat strong {
     display: block;
     margin-bottom: 0.3rem;
-    color: var(--dk-green);
+    color: var(--dk-orange-deep);
     font-family: var(--serif);
     font-size: 1.55rem;
     font-weight: 500;
@@ -157,8 +157,8 @@
     padding: 1.35rem;
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 32px;
-    background: radial-gradient(120% 100% at 100% 0%, var(--dk-panel) 0%, var(--dk-green) 48%, var(--dk-green-deep) 100%);
-    box-shadow: 0 45px 90px -45px rgba(23, 38, 29, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    background: radial-gradient(120% 100% at 100% 0%, var(--dk-panel) 0%, var(--dk-orange-deep) 45%, var(--dk-orange-dark) 100%);
+    box-shadow: 0 45px 90px -45px rgba(124, 45, 18, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.12);
     transform: rotate(1.1deg);
 }
 
@@ -183,7 +183,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    color: var(--dk-sage-light);
+    color: var(--dk-orange-soft);
     font-size: 0.57rem;
     font-weight: 800;
     letter-spacing: 0.2em;
@@ -194,15 +194,15 @@
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    color: var(--dk-sand);
+    color: var(--dk-orange-soft);
     letter-spacing: 0.12em;
 }
 
 .dk-page .dk-art-status .status-dot {
     width: 0.4rem;
     height: 0.4rem;
-    background: #7cc397;
-    box-shadow: 0 0 0 0.2rem rgba(124, 195, 151, 0.16);
+    background: var(--dk-orange);
+    box-shadow: 0 0 0 0.2rem rgba(249, 115, 22, 0.18);
 }
 
 .dk-page .dk-art-word {
@@ -221,7 +221,7 @@
     position: relative;
     z-index: 2;
     margin: 0.7rem 0 1.4rem;
-    color: var(--dk-sage-light);
+    color: var(--dk-orange-soft);
     font-size: 0.6rem;
     font-weight: 800;
     letter-spacing: 0.18em;
@@ -232,7 +232,7 @@
     position: relative;
     z-index: 2;
     padding: 1.1rem;
-    border: 1px solid rgba(36, 53, 43, 0.1);
+    border: 1px solid rgba(124, 45, 18, 0.12);
     border-radius: 20px;
     background: var(--paper);
     box-shadow: 0 25px 50px -30px rgba(0, 0, 0, 0.75);
@@ -255,8 +255,8 @@
 .dk-page .dk-dashboard-pill {
     padding: 0.2rem 0.5rem;
     border-radius: 999px;
-    background: rgba(36, 53, 43, 0.09);
-    color: var(--dk-green);
+    background: rgba(249, 115, 22, 0.1);
+    color: var(--dk-orange-deep);
     font-size: 0.5rem;
 }
 
@@ -282,7 +282,7 @@
 }
 
 .dk-page .dk-metric-grid strong {
-    color: var(--dk-green);
+    color: var(--dk-orange-deep);
     font-family: var(--serif);
     font-size: 1.25rem;
     font-weight: 600;
@@ -304,7 +304,7 @@
     flex: 1;
     height: var(--h, 50%);
     border-radius: 5px 5px 2px 2px;
-    background: linear-gradient(180deg, var(--dk-sage), var(--dk-green));
+    background: linear-gradient(180deg, var(--dk-orange-bright), var(--dk-orange-deep));
     opacity: 0.85;
 }
 
@@ -337,7 +337,7 @@
     border: 1px solid var(--line);
     border-radius: 16px;
     background: var(--paper);
-    box-shadow: 0 18px 40px -22px rgba(23, 38, 29, 0.5);
+    box-shadow: 0 18px 40px -22px rgba(124, 45, 18, 0.45);
 }
 
 .dk-page .dk-art-chip--one {
@@ -359,8 +359,8 @@
     width: 2.2rem;
     height: 2.2rem;
     border-radius: 11px;
-    background: rgba(36, 53, 43, 0.08);
-    color: var(--dk-green);
+    background: rgba(124, 45, 18, 0.08);
+    color: var(--dk-orange-deep);
 }
 
 .dk-page .dk-art-chip strong {
@@ -408,8 +408,8 @@
 }
 
 .dk-page .section--dk-about a {
-    color: var(--dk-green);
-    text-decoration-color: rgba(36, 53, 43, 0.35);
+    color: var(--dk-orange-deep);
+    text-decoration-color: rgba(194, 65, 12, 0.35);
 }
 
 .dk-page .dk-fact-card {
@@ -422,7 +422,7 @@
 
 .dk-page .dk-fact-title {
     margin: 0 0 0.75rem;
-    color: var(--dk-green);
+    color: var(--dk-orange-deep);
     font-size: 0.6rem;
     font-weight: 800;
     letter-spacing: 0.18em;
@@ -487,7 +487,7 @@
 }
 
 .dk-page .dk-feature-card:hover {
-    border-color: rgba(36, 53, 43, 0.3);
+    border-color: rgba(194, 65, 12, 0.3);
     box-shadow: var(--shadow-card);
     transform: translateY(-5px);
 }
@@ -498,10 +498,10 @@
     width: 3rem;
     height: 3rem;
     margin-bottom: 1.8rem;
-    border: 1px solid rgba(36, 53, 43, 0.12);
+    border: 1px solid rgba(194, 65, 12, 0.12);
     border-radius: 14px;
-    background: rgba(36, 53, 43, 0.07);
-    color: var(--dk-green);
+    background: rgba(249, 115, 22, 0.08);
+    color: var(--dk-orange-deep);
 }
 
 .dk-page .dk-feature-icon .icon {
@@ -529,7 +529,7 @@
 .dk-page .section--dk-pricing {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(160deg, #2c4234, #17261d 62%, #203228);
+    background: linear-gradient(160deg, #ea580c 0%, #9a3412 48%, #431407 100%);
 }
 
 .dk-page .section--dk-pricing::before {
@@ -556,11 +556,11 @@
 
 .dk-page .section--dk-pricing .eyebrow,
 .dk-page .section--dk-contact .eyebrow {
-    color: var(--dk-sage-light);
+    color: var(--dk-orange-soft);
 }
 
 .dk-page .section--dk-pricing .section-lede {
-    color: #c6d4c5;
+    color: var(--dk-orange-soft);
 }
 
 .dk-page .dk-price-card {
@@ -571,9 +571,32 @@
     box-shadow: 0 45px 90px -60px rgba(0, 0, 0, 0.85);
 }
 
+.dk-page .dk-free-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin: 0 0 1.3rem;
+    padding: 0.45rem 0.8rem;
+    border: 1px solid rgba(251, 146, 60, 0.45);
+    border-radius: 999px;
+    background: rgba(249, 115, 22, 0.14);
+    color: var(--dk-orange-soft);
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.dk-page .dk-free-badge .icon {
+    width: 0.85rem;
+    height: 0.85rem;
+    color: #fdba74;
+    stroke-width: 2.2;
+}
+
 .dk-page .dk-price-label {
     margin: 0 0 0.6rem;
-    color: var(--dk-sage-light);
+    color: var(--dk-orange-soft);
     font-size: 0.6rem;
     font-weight: 800;
     letter-spacing: 0.18em;
@@ -595,7 +618,7 @@
 }
 
 .dk-page .dk-price span {
-    color: var(--dk-sage-light);
+    color: var(--dk-orange-soft);
     font-family: var(--sans);
     font-size: 0.72rem;
     font-weight: 800;
@@ -609,7 +632,7 @@
     gap: 0.55rem;
     max-width: 22rem;
     margin: 0;
-    color: var(--dk-sand);
+    color: var(--dk-orange-soft);
     font-size: 0.82rem;
     line-height: 1.65;
 }
@@ -618,7 +641,7 @@
     width: 1rem;
     height: 1rem;
     margin-top: 0.25rem;
-    color: #a9c8ae;
+    color: #fdba74;
     stroke-width: 2.2;
 }
 
@@ -634,7 +657,7 @@
     display: flex;
     align-items: flex-start;
     gap: 0.75rem;
-    color: #d8e3d6;
+    color: var(--dk-orange-soft);
     font-size: 0.88rem;
     line-height: 1.65;
 }
@@ -648,13 +671,13 @@
     width: 1.05rem;
     height: 1.05rem;
     margin-top: 0.28rem;
-    color: #a9c8ae;
+    color: #fdba74;
     stroke-width: 2.1;
 }
 
 .dk-page .section--dk-pricing .text-link--light {
-    color: var(--dk-sage-light);
-    border-color: rgba(201, 216, 200, 0.3);
+    color: var(--dk-orange-soft);
+    border-color: rgba(255, 237, 213, 0.32);
 }
 
 .dk-page .section--dk-pricing .text-link--light:hover {
@@ -664,7 +687,7 @@
 
 .dk-page .section--dk-pricing a:focus-visible,
 .dk-page .section--dk-contact a:focus-visible {
-    outline-color: var(--dk-sage-light);
+    outline-color: var(--dk-orange-soft);
 }
 
 .dk-page .dk-price-actions {
@@ -674,14 +697,14 @@
 .dk-page .dk-btn-light {
     border-color: var(--paper);
     background: var(--paper);
-    color: var(--dk-green-deep);
+    color: var(--dk-orange-dark);
 }
 
 .dk-page .dk-btn-light:hover,
 .dk-page .dk-btn-light:focus-visible {
-    border-color: var(--dk-sage-light);
-    background: var(--dk-sage-light);
-    color: var(--dk-green-deep);
+    border-color: var(--dk-orange-soft);
+    background: var(--dk-orange-soft);
+    color: var(--dk-orange-dark);
 }
 
 /* --------------------------------------------------------------------------
@@ -693,10 +716,10 @@
 }
 
 .dk-page .dk-faq-accordion {
-    --bs-accordion-btn-color: var(--dk-green);
-    --bs-accordion-active-color: var(--dk-green);
-    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%2324352b' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m4 6 4 4 4-4'/%3e%3c/svg%3e");
-    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%2324352b' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m4 10 4-4 4 4'/%3e%3c/svg%3e");
+    --bs-accordion-btn-color: var(--dk-orange-deep);
+    --bs-accordion-active-color: var(--dk-orange-deep);
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23c2410c' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m4 6 4 4 4-4'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23c2410c' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m4 10 4-4 4 4'/%3e%3c/svg%3e");
 }
 
 .dk-page .section--dk-contact {
@@ -705,7 +728,7 @@
 }
 
 .dk-page .section--dk-contact .contact-panel {
-    background: linear-gradient(135deg, #2c4234 0%, #17261d 58%, #24372a 100%);
+    background: linear-gradient(135deg, #c2410c 0%, #7c2d12 58%, #9a3412 100%);
 }
 
 .dk-page .section--dk-contact h2 {
@@ -719,7 +742,7 @@
 .dk-page .section--dk-contact .contact-panel p:not(.eyebrow) {
     max-width: 34rem;
     margin: 0;
-    color: #c6d4c5;
+    color: var(--dk-orange-soft);
     font-size: 0.96rem;
     line-height: 1.78;
 }
@@ -732,7 +755,7 @@
 }
 
 .dk-page .section--dk-contact .text-link--light {
-    color: var(--dk-sage-light);
+    color: var(--dk-orange-soft);
 }
 
 .dk-page .section--dk-contact .text-link--light:hover {
@@ -771,8 +794,8 @@
 
 @media (max-width: 575.98px) {
     .dk-page .dk-stat {
-        flex: 1 1 30%;
-        min-width: 5.5rem;
+        flex: 1 1 44%;
+        min-width: 6rem;
         padding-right: 0.7rem;
     }
 
