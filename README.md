@@ -8,8 +8,10 @@ The site is built as a static site for GitHub Pages, using **Bootstrap 5.3** for
 
 ```
 index.html                  Main page (content, SEO metadata, JSON-LD)
+dapuku.html                 DapurKu product page (about, features, pricing, SEO)
 404.html                    Branded not-found page
 assets/css/styles.css       Brand theme and custom components
+assets/css/dapuku.css       DapurKu page accents (scoped to .dk-page)
 assets/js/main.js           Navigation, reveal animations, form, clipboard
 assets/image/               Logo, favicons, app icons, Open Graph cover
 robots.txt                  Crawler rules
